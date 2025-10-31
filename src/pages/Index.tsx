@@ -1,26 +1,22 @@
-import { Header } from "@/components/landing/Header";
-import { HeroSection } from "@/components/landing/HeroSection";
-import { FeaturesSection } from "@/components/landing/FeaturesSection";
-import { VideoSection } from "@/components/landing/VideoSection";
-import { ReviewsSection } from "@/components/landing/ReviewsSection";
-import { ComparisonSection } from "@/components/landing/ComparisonSection";
-import { SpecialOfferSection } from "@/components/landing/SpecialOfferSection";
-import { FAQSection } from "@/components/landing/FAQSection";
-import { OrderSection } from "@/components/landing/OrderSection";
-import { Footer } from "@/components/landing/Footer";
+import Header from '@/components/KeyboardLanding/Header';
+import Hero from '@/components/KeyboardLanding/Hero';
+import Features from '@/components/KeyboardLanding/Features';
+import Testimonials from '@/components/KeyboardLanding/Testimonials';
+import Comparison from '@/components/KeyboardLanding/Comparison';
+import FAQ from '@/components/KeyboardLanding/FAQ';
+import OrderForm from '@/components/KeyboardLanding/OrderForm';
+import Footer from '@/components/KeyboardLanding/Footer';
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <HeroSection />
-      <FeaturesSection />
-      <VideoSection />
-      <ReviewsSection />
-      <ComparisonSection />
-      <SpecialOfferSection />
-      <FAQSection />
-      <OrderSection />
+      <Hero />
+      <Features />
+      <Testimonials />
+      <Comparison />
+      <FAQ />
+      <OrderForm />
       <Footer />
     </div>
   );

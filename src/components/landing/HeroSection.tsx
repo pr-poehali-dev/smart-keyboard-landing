@@ -60,7 +60,7 @@ export const HeroSection = () => {
           <div className="relative animate-scale-in">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/40 to-accent/40 blur-3xl opacity-50" />
             <img 
-              src="https://cdn.poehali.dev/projects/01b7fa8c-f4ed-4433-a4b5-92afd67858b5/files/4e0cf15f-5a84-4c15-b701-9e9e20a3a105.jpg"
+              src="https://cdn.poehali.dev/projects/01b7fa8c-f4ed-4433-a4b5-92afd67858b5/files/52f30a91-845a-4617-9454-69a31090eac2.jpg"
               alt="Умная клавиатура X-Pro"
               className="relative w-full h-auto rounded-2xl shadow-2xl"
             />

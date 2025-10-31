@@ -23,7 +23,7 @@ export const VideoSection = () => {
           <div className="relative aspect-video rounded-2xl overflow-hidden bg-card border border-border/50 shadow-2xl group">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
               <img 
-                src="https://cdn.poehali.dev/projects/01b7fa8c-f4ed-4433-a4b5-92afd67858b5/files/4e0cf15f-5a84-4c15-b701-9e9e20a3a105.jpg"
+                src="https://cdn.poehali.dev/projects/01b7fa8c-f4ed-4433-a4b5-92afd67858b5/files/dbcd972b-05d1-43e0-8354-76b43ac859ca.jpg"
                 alt="Видео демонстрация клавиатуры"
                 className="w-full h-full object-cover opacity-50"
               />
